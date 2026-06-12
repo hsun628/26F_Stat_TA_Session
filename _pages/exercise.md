@@ -1,6 +1,6 @@
 ---
 permalink: /exercise/
-title: "Exercises"
+title: "R Exercises"
 author_profile: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 permalink: /r_code/
-title: "Example Code"
+title: "Example Codes"
 author_profile: false
 ---
 
