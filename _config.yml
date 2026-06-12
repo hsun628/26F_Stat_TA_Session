@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "26F Statistics TAWebsite"
+title                    : "26F Statistics TA Website"
 title_separator          : "-"
 name                     : &name "hsun"
 description              : &description "This is the TA Session Website for Statistics with Recitation (26F)"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,12 +24,9 @@ repository               : "hsun628/hsun628.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "hsun"
-  pronouns         : # example: "she/her"  
-  bio              : "Head TA"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
+  name             : "hsun" 
+  bio              : "TA"
+  location         : "Social Science Building, Room 6XX"
   email            : "R15XXXX.ntu.edu.tw" 
   github           : "https://github.com/hsun628/"
 
