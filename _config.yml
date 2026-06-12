@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "26F_Statistics_TA_Website"
+title                    : "26F Statistics TAWebsite"
 title_separator          : "-"
 name                     : &name "hsun"
 description              : &description "This is the TA Session Website for Statistics with Recitation (26F)"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,63 +24,15 @@ repository               : "hsun628/hsun628.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "hsun"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "TA for 26F Statistics with Recitation"
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
-
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
-
-
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
-  # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  email            : "R15XXXX.ntu.edu.tw" 
+  Personal Website : "https://pinxunchen854.wordpress.com/"
+  github           : "https://github.com/hsun628/"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -92,25 +44,32 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
+teaser                   : "profile.png" # 社群平台分享（如傳 LINE 或 FB）時預設顯示的縮圖，直接用你的頭像即可
+breadcrumbs              : false # 保持 false，TA 網站階層簡單，不需要顯示頂端麵包屑導覽（例如 Home / Slide / Week1）
 words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+future                   : true  # 保持 true，這樣即使文章日期寫了未來的日期，網站一樣會渲染出來
+read_more                : "disabled" # 保持 "disabled"，不要在主頁列表顯示「閱讀更多」按鈕，讓所有內容直接呈現
+
+# TA 網站不需要 Talkmap 功能（這通常是研究生用來展示去哪些國家發表論文的學術地圖功能）
+talkmap_link             : false 
+
+# ---- 留言板功能設定 ----
+# 強烈建議關閉留言功能，避免學生在網站亂留言，有問題請他們直接寄 Email 或是透過 Teams 聯絡
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : false # 設定為 false 關閉所有第三方留言區
   disqus:
     shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               :
   facebook:
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :
+    colorscheme          :
+
+# Staticman 是另一種透過 Git 儲存的留言系統，既然上面關閉了，這裡保持預設或不管它即可
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "main" # 如果你的預設分支是 main，可以順手改一下（原本是 gh-pages）
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -123,10 +82,12 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601"
+
+# ---- RSS 訂閱設定 ----
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide                   : true  # 💡 改成 true！把網頁頁尾的 RSS 訂閱圖標隱藏，因為大學生沒人在用 RSS，藏起來畫面更乾淨
+  path                   :
 
 
 # SEO Related
