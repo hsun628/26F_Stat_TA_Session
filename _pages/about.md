@@ -84,7 +84,7 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
 <div class="custom-info-box home-announcement-box">
   
   <div class="home-announcement-header">
-    <h3 style="margin: 0; line-height: 1.3;">2026-06-13: Welcome to the course!</h3>
+    <h3 style="margin: 0; line-height: 1.3;">2026-06-13: Welcome to ECON2022!</h3>
   </div>
   
   <p style="margin: 0 0 20px 0; line-height: 1.65; font-size: 0.95em;">
