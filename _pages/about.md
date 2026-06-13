@@ -91,10 +91,10 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
     Welcome to the Statistics TA session! The website is now fully set up. You can explore and download weekly handouts, sample codes, and other course materials using the menu at the top right of this page. Feel free to contact me if you have any question or suggestion about the website!
   </p>
 
-  <div style="border-top: 1px dashed #e2e8f0; padding-top: 15px; margin-top: 15px; text-align: right;">
-    <a href="{{ site.url }}/announcements/" style="color: inherit; opacity: 0.7; font-size: 0.9em; font-weight: bold; text-decoration: none;">
-      View Older Announcements &rarr;
-    </a>
-  </div>
+<div style="border-top: 1px dashed #e2e8f0; padding-top: 15px; margin-top: 15px; text-align: right;">
+  <a href="{{ '/announcements/' | relative_url }}" style="color: inherit; opacity: 0.7; font-size: 0.9em; font-weight: bold; text-decoration: none;">
+    View Older Announcements &rarr;
+  </a>
+</div>
 
 </div>
