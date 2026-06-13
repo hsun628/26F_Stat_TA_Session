@@ -29,9 +29,21 @@ redirect_from:
     opacity: 0.8; /* 使用透明度代替寫死的灰色，這樣深淺色模式下都會呈現舒服的次級字顏色 */
   }
 
-  /* 讓最新公告的 H4 標題在框框內緊湊好看，移除預設過大的 margin */
-  .custom-info-box h4 {
-    margin: 0 0 10px 0;
+/* 首頁最新公告的特定結構樣式 */
+  .home-announcement-header {
+    border-bottom: 1px dashed #e2e8f0;
+    padding-bottom: 12px;
+    margin: 0 0 15px 0;
+  }
+  
+  /* 精準調整：拉近 Announcement 大字與下方公告方框的間距 */
+  #announcement-section-title {
+    margin-bottom: 5px; /* 縮小大字下方的留白 */
+  }
+  
+  .home-announcement-box {
+    margin-top: -5px !important; /* 利用負邊框把整個方框往上提，緊貼大字 */
+    padding-top: 15px !important; /* 微調縮小方框內頂部的 padding，讓公告標題更往上靠 */
   }
 
   /* 當偵測到 Minimal Mistakes 的深色模式 */
@@ -67,11 +79,14 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
 
 ---
 
-## Announcement
+<h2 id="announcement-section-title">Announcement</h2>
 
-<div class="custom-info-box">
+<div class="custom-info-box home-announcement-box">
   
-  <h3>2026-06-13: Welcome to the course!</h3>
+  <div class="home-announcement-header">
+    <h3 style="margin: 0; font-size: 1.15em; line-height: 1.3;">2026-06-13: Welcome to the course!</h3>
+  </div>
+  
   <p style="margin: 0 0 20px 0; line-height: 1.65; font-size: 0.95em;">
     Welcome to the Statistics TA session! The website is now fully set up. You can explore and download weekly handouts, sample codes, and other course materials using the menu at the top right of this page. Feel free to contact me if you have any question or suggestion about the website!
   </p>
