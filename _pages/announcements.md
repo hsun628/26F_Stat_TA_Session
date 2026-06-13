@@ -56,14 +56,20 @@ Check all previous announcements!
     display: none;
   }
   
-  /* [more ↓] 按鈕樣式：微調回呼應主題大標題的灰色調 */
+/* [more ↓] 按鈕樣式：完全複製主頁 View Older Announcements 的設計 */
   .more-btn {
-    color: #003366;
-    font-size: 0.85em;
+    color: inherit !important;     /* 和網頁字體顏色一致 */
+    opacity: 0.7;                  /* 保持低調不顯眼的透明度 */
+    font-size: 0.9em;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;         /* 移除底線，維持極簡感 */
     white-space: nowrap;
     margin-left: 15px;
+  }
+  
+  /* 滑鼠懸停在按鈕或整塊卡片時，稍微加深按鈕顏色以提示可點擊 */
+  .announcement-box:hover .more-btn {
+    opacity: 1;
   }
 
   /* ======================================================== */
@@ -96,7 +102,7 @@ Check all previous announcements!
 <!-- 新公告 -->
 <details class="announcement-box">
   <summary>
-    <h4 class="announcement-title">2026-06-13: Welcome to the course!</h4>
+    <h3 class="announcement-title">2026-06-13: Welcome to the course!</h3>
     <span class="more-btn">more &darr;</span>
   </summary>
   <div class="announcement-content">
