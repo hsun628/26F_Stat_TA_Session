@@ -8,16 +8,6 @@ redirect_from:
 ---
 
 <style>
-  /* 透過 CSS 讓框框與文字完美適應深淺色模式 */
-  .custom-info-box {
-    border: 1px solid #e2e8f0;
-    /* 淺色模式下預設使用全白背景 */
-    background-color: #ffffff;
-    padding: 20px; 
-    border-radius: 10px; 
-    margin-top: 15px;
-  }
-  
   /* 讓框框內的內文顏色跟隨系統主題切換 */
   .custom-info-box p {
     color: inherit !important;
@@ -26,7 +16,7 @@ redirect_from:
   .custom-sub-text {
     font-size: 0.95em;
     padding-left: 15px;
-    opacity: 0.8; /* 使用透明度代替寫死的灰色 */
+    opacity: 0.8; 
   }
 
   /* 首頁最新公告的特定結構樣式 */
@@ -43,7 +33,7 @@ redirect_from:
     text-align: right;
   }
 
-  /* 讓 code 區塊也能完美適應深淺色 */
+  /* 淺色模式下 code 區塊的預設樣式 */
   .custom-info-box code {
     background-color: #f1f5f9 !important;
     color: #475569 !important;
@@ -53,34 +43,38 @@ redirect_from:
     font-size: 0.95em;
   }
 
-  /* 當偵測到系統預設深色模式 */
+  /* ======================================================== */
+  /* 強制覆蓋：當偵測到系統深色模式，或網頁被啟用深色主題時 */
+  /* ======================================================== */
+  
   @media (prefers-color-scheme: dark) {
     .custom-info-box {
-      background-color: #252a34; /* 深色模式下的溫潤深灰底 */
-      border-color: #3f444e;     /* 深色模式下的微弱邊框 */
+      background-color: #252a34 !important; /* 強制變黑底 */
+      border-color: #3f444e !important;     /* 強制變暗邊框 */
+      color: #ffffff !important;            /* 強制文字變白 */
     }
     .home-announcement-header, .home-announcement-footer {
-      border-bottom-color: #3f444e; /* 深色模式下的虛線顏色 */
-      border-top-color: #3f444e;
+      border-bottom-color: #3f444e !important; 
+      border-top-color: #3f444e !important;
     }
     .custom-info-box code {
-      background-color: #1e222b !important; /* 深色模式下的 code 黯淡背景 */
-      color: #cbd5e1 !important;           /* 深色模式下的 code 明亮文字 */
+      background-color: #1e222b !important; 
+      color: #cbd5e1 !important;           
     }
   }
   
-  /* 針對 Minimal Mistakes 模板常見的強制切換深色樣式覆寫 */
   html[data-theme="dark"] .custom-info-box,
   .theme-dark .custom-info-box {
-    background-color: #252a34;
-    border-color: #3f444e;
+    background-color: #252a34 !important;
+    border-color: #3f444e !important;
+    color: #ffffff !important;
   }
   html[data-theme="dark"] .home-announcement-header,
   html[data-theme="dark"] .home-announcement-footer,
   .theme-dark .home-announcement-header,
   .theme-dark .home-announcement-footer {
-    border-bottom-color: #3f444e;
-    border-top-color: #3f444e;
+    border-bottom-color: #3f444e !important;
+    border-top-color: #3f444e !important;
   }
   html[data-theme="dark"] .custom-info-box code,
   .theme-dark .custom-info-box code {
@@ -96,7 +90,7 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
 
 ## TA Information
 
-<div class="custom-info-box">
+<div class="custom-info-box" style="background-color: #ffffff; border: 1px solid #e2e8f0; color: #222222; padding: 20px; border-radius: 10px; margin-top: 15px;">
   <p style="margin: 0 0 10px 0;"><b>Contact:</b> R15xxxx@ntu.edu.tw</p>
   <p class="custom-sub-text" style="margin: 0 0 15px 0;">* Please use the email subject prefix: <code>[Statistics TA]</code></p>
   <p style="margin: 0 0 10px 0;"><b>Office Hours:</b> By Appointment</p>
@@ -108,7 +102,7 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
 
 ## Announcement
 
-<div class="custom-info-box">
+<div class="custom-info-box" style="background-color: #ffffff; border: 1px solid #e2e8f0; color: #222222; padding: 20px; border-radius: 10px; margin-top: 15px;">
   
   <div class="home-announcement-header">
     <h3 style="margin: 0; line-height: 1.3;">2026-06-13: Welcome to ECON2022!</h3>
