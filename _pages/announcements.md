@@ -102,7 +102,7 @@ Check all previous announcements!
 <!-- 新公告 -->
 <details class="announcement-box">
   <summary>
-    <h3 class="announcement-title">2026-06-13: Welcome to the course!</h3>
+    <h3 class="announcement-title">2026-06-13: Welcome to ECON2022!</h3>
     <span class="more-btn">more &darr;</span>
   </summary>
   <div class="announcement-content">
