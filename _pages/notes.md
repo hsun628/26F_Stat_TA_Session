@@ -4,7 +4,7 @@ title: "TA Session Lecture Notes"
 author_profile: true
 ---
 
-Here are the weekly TA session lecture notes. Please click the link and check out the weekly notes!
+Here are the weekly TA session lecture notes. Click to check out the weekly notes!
 
 
 <style>
@@ -51,7 +51,7 @@ Here are the weekly TA session lecture notes. Please click the link and check ou
 
 <ul>
   <li>
-    <b>Week 01：</b> Installation and Basics of R
-    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W1-38a5ce07e08e80cfa37becbfa8e267b5?source=copy_link" target="_blank" style="text-decoration: none;">Click Here!</a>
+    <b>Week 01：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W1-38a5ce07e08e80cfa37becbfa8e267b5?source=copy_link" target="_blank" style="text-decoration: none;">Installation and Basics of R</a>
   </li>
 </ul>
