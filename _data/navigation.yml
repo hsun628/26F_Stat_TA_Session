@@ -11,8 +11,8 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Slides"
-    url: /slide/    
+  - title: "Lecture Notes"
+    url: /notes/    
 
   - title: "Example Codes"
     url: /r_code/
