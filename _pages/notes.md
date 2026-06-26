@@ -54,4 +54,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <b>Week 01：</b> 
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W1-38a5ce07e08e80cfa37becbfa8e267b5?source=copy_link" target="_blank" style="text-decoration: none;">Installation and Basics of R</a>
   </li>
+
+  <li>
+    <b>Week 02：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W2-38b5ce07e08e8039a6e0df7bb5f44c68?source=copy_link" target="_blank" style="text-decoration: none;">Setup and A first look at datasets</a>
+  </li>
 </ul>
