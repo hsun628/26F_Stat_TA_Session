@@ -12,7 +12,7 @@ Here are Example Codes for TA sessions. Please Download before classes.
 <ul>
   <li style="margin-bottom: 8px;">
     <b>Week 01：</b>
-    <a href="{{ '/files/w1.Rmd' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Installation and Basics of R</a>
+    <a href="{{ '/files/w1.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Installation and Basics of R</a>
   </li>
   
   <li style="margin-bottom: 8px;">
