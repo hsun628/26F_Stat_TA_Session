@@ -25,7 +25,7 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
   </li>
 
   <li style="margin-bottom: 8px;">
-    <b>Week 02：</b>
+    <b>Week 03：</b>
     <a href="{{ '/files/w3_sol.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Tables and more on Data Visualization</a>
   </li>
 
