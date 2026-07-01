@@ -59,4 +59,10 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <b>Week 02：</b> 
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W2-38b5ce07e08e8039a6e0df7bb5f44c68?source=copy_link" target="_blank" style="text-decoration: none;">Setup and A first look at datasets</a>
   </li>
+
+  <li>
+    <b>Week 03：</b> 
+    <a href="https://www.notion.so/26F-Stat-TA-Session-W3-3905ce07e08e80cfb8fee9688ea73813?source=copy_link" target="_blank" style="text-decoration: none;">Tables and more on Data Visualization</a>
+  </li>
+
 </ul>

@@ -20,8 +20,8 @@ main:
   - title: "Exercises"
     url: /exercise/
 
-  - title: "HW solutions"
-    url: /HW_sol/
+  - title: "Solutions"
+    url: /sol/
 
   - title: "Quizs"
     url: /quiz/

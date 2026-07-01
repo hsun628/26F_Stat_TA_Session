@@ -17,7 +17,12 @@ Here are Example Codes for TA sessions. Please Download before classes.
   
   <li style="margin-bottom: 8px;">
     <b>Week 02：</b>
-    <a href="{{ '/files/w2.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Setup and A first look at datasets</a>
+    <a href="{{ '/files/w2.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Setup and A first look at datasets</a> (Datasets included)
+  </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 03：</b>
+    <a href="{{ '/files/w3.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Tables and more on Data Visualization</a> (Datasets included)
   </li>
   
 </ul>
