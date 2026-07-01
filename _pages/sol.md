@@ -17,6 +17,7 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
   <li style="margin-bottom: 8px;">
     <b>Week 01：</b>
     <a href="{{ '/files/w1_sol.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Installation and Basics of R</a>
+  </li>
 
   <li style="margin-bottom: 8px;">
     <b>Week 02：</b>
@@ -27,4 +28,5 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 02：</b>
     <a href="{{ '/files/w3_sol.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Tables and more on Data Visualization</a>
   </li>
+
 </ul>
