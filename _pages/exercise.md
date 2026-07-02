@@ -62,4 +62,8 @@ author_profile: true
     <a href="https://www.notion.so/W3-Exercises-3905ce07e08e8007bba2c6e16f499bd2?source=copy_link" target="_blank" style="text-decoration: none;">Tables and more on Data Visualization</a>
   </li>
 
+  <li>
+    <b>Week 04：</b> 
+    <a href="https://www.notion.so/W4-Exercises-3915ce07e08e80bb9d0efa28efdd807d?source=copy_link" target="_blank" style="text-decoration: none;">Random Sampling</a>
+  </li>
 </ul>

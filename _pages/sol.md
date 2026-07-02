@@ -29,4 +29,9 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <a href="{{ '/files/w3_sol.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Tables and more on Data Visualization</a>
   </li>
 
+  <li style="margin-bottom: 8px;">
+    <b>Week 04：</b>
+    <a href="{{ '/files/w4_sol.zip' | relative_url }}" download style="text-decoration: none; font-weight: bold; margin-left: 10px;">Random Sampling</a>
+  </li>
+
 </ul>

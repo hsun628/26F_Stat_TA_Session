@@ -65,4 +65,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <a href="https://www.notion.so/26F-Stat-TA-Session-W3-3905ce07e08e80cfb8fee9688ea73813?source=copy_link" target="_blank" style="text-decoration: none;">Tables and more on Data Visualization</a>
   </li>
 
+  <li>
+    <b>Week 04：</b> 
+    <a href="https://www.notion.so/26F-Stat-TA-Session-W4-3905ce07e08e80799d0bc54aee8ac7b7?source=copy_link" target="_blank" style="text-decoration: none;">Random Sampling</a>
+  </li>
+
 </ul>
