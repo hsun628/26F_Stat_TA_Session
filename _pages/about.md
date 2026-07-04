@@ -112,9 +112,19 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
     Welcome to the Statistics TA session! The website is now fully set up. You can explore and download weekly handouts, sample codes, and other course materials using the menu at the top right of this page. Feel free to contact me if you have any question or suggestion about the website!
   </p>
 
+  <div class="home-announcement-header">
+    <h3 style="margin: 0; line-height: 1.3;">2026-07-04: TA Session Notes & Weekly Exercises (PDFs Available)</h3>
+  </div>
+  
+  <p style="margin: 0 0 20px 0; line-height: 1.65; font-size: 0.95em;">
+    Hi everyone, the PDF versions of the TA session notes and weekly exercises have been updated for those who prefer to study with PDFs. One thing to note is that the PDF formatting may not look as polished (and as pretty) as the original Notion pages.
+
+If you have any suggestions for improving the PDF layout or know of a better way to preserve the formatting, I'd love to hear from you! Your feedback will help us continue improving the quality of this course. Thank you!
+  </p>
+
   <div class="home-announcement-footer">
     <a href="{{ '/announcements/' | relative_url }}" style="color: inherit; opacity: 0.7; font-size: 0.9em; font-weight: bold; text-decoration: none;">
-      View Older Announcements &rarr;
+      View Previous Announcements &rarr;
     </a>
   </div>
 

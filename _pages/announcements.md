@@ -110,4 +110,16 @@ Check all previous announcements!
   </div>
 </details>
 
+<details class="announcement-box">
+  <summary>
+    <h3 class="announcement-title">2026-07-04: TA Session Notes & Weekly Exercises (PDFs Available)</h3>
+    <span class="more-btn">more &darr;</span>
+  </summary>
+  <div class="announcement-content">
+    Hi everyone, the PDF versions of the TA session notes and weekly exercises have been updated for those who prefer to study with PDFs. One thing to note is that the PDF formatting may not look as polished (and as pretty) as the original Notion pages.
+
+If you have any suggestions for improving the PDF layout or know of a better way to preserve the formatting, I'd love to hear from you! Your feedback will help us continue improving the quality of this course. Thank you!
+  </div>
+</details>
+
 <!-- 舊公告（未來新增公告時，只要複製上方 details 區塊即可） -->
