@@ -47,23 +47,28 @@ author_profile: true
 ### Weekly Exercises
 
 <ul>
-  <li>
+  <li style="margin-bottom: 8px;">
     <b>Week 01：</b> 
-    <a href="https://www.notion.so/W1-Exercises-3905ce07e08e80ca96f5c82e2eed1dd6?source=copy_link" target="_blank" style="text-decoration: none;">Installation and Basics of R</a>
+    <a href="https://www.notion.so/W1-Exercises-3905ce07e08e80ca96f5c82e2eed1dd6?source=copy_link" target="_blank" style="text-decoration: none;">Installation and Basics of R</a><a href="{{ '/files/w1_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 
-  <li>
+  <li style="margin-bottom: 8px;">
     <b>Week 02：</b> 
-    <a href="https://www.notion.so/W2-Exercises-3905ce07e08e8055b872cf1a70a4f472?source=copy_link" target="_blank" style="text-decoration: none;">Setup and A first look at datasets</a>
+    <a href="https://www.notion.so/W2-Exercises-3905ce07e08e8055b872cf1a70a4f472?source=copy_link" target="_blank" style="text-decoration: none;">Setup and A first look at datasets</a><a href="{{ '/files/w2_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 
-  <li>
+  <li style="margin-bottom: 8px;">
     <b>Week 03：</b> 
-    <a href="https://www.notion.so/W3-Exercises-3905ce07e08e8007bba2c6e16f499bd2?source=copy_link" target="_blank" style="text-decoration: none;">Tables and more on Data Visualization</a>
+    <a href="https://www.notion.so/W3-Exercises-3905ce07e08e8007bba2c6e16f499bd2?source=copy_link" target="_blank" style="text-decoration: none;">Tables and more on Data Visualization</a><a href="{{ '/files/w3_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 
-  <li>
+  <li style="margin-bottom: 8px;">
     <b>Week 04：</b> 
-    <a href="https://www.notion.so/W4-Exercises-3915ce07e08e80bb9d0efa28efdd807d?source=copy_link" target="_blank" style="text-decoration: none;">Random Sampling</a>
+    <a href="https://www.notion.so/W4-Exercises-3915ce07e08e80bb9d0efa28efdd807d?source=copy_link" target="_blank" style="text-decoration: none;">Random Sampling</a><a href="{{ '/files/w4_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 05：</b> 
+    <a href="https://www.notion.so/W5-Exercises-3925ce07e08e803da93ae3de2870ebe1?source=copy_link" target="_blank" style="text-decoration: none;">Control Flow & Define your Function</a><a href="{{ '/files/w5_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 </ul>
