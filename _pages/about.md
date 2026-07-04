@@ -113,13 +113,11 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
   </p>
 
   <div class="home-announcement-header">
-    <h3 style="margin: 0; line-height: 1.3;">2026-07-04: TA Session Notes & Weekly Exercises (PDFs Available)</h3>
+    <h3 style="margin: 0; line-height: 1.3;">2026-07-04: PDFs Now Available!</h3>
   </div>
   
   <p style="margin: 0 0 20px 0; line-height: 1.65; font-size: 0.95em;">
-    Hi everyone, the PDF versions of the TA session notes and weekly exercises have been updated for those who prefer to study with PDFs. One thing to note is that the PDF formatting may not look as polished (and as pretty) as the original Notion pages.
-
-If you have any suggestions for improving the PDF layout or know of a better way to preserve the formatting, I'd love to hear from you! Your feedback will help us continue improving the quality of this course. Thank you!
+    Hi everyone, the PDF versions of the TA session notes and weekly exercises have been updated for those who prefer to study with PDFs. One thing to note is that the PDF formatting may not look as polished (and as pretty) as the original Notion pages. If you have any suggestions for improving the PDF layout or know of a better way to preserve the formatting, I'd love to hear from you! Your feedback will help us continue improving the quality of this course. Thank you!
   </p>
 
   <div class="home-announcement-footer">
