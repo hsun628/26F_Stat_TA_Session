@@ -39,4 +39,8 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <a href="{{ '/files/w5_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Control Flow & Define your Function</a>
   </li>
 
+  <li style="margin-bottom: 8px;">
+    <b>Week 06：</b>
+    <a href="{{ '/files/w6_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">String and Date Data Manipulation</a>
+  </li>
 </ul>

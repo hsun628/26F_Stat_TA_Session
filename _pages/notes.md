@@ -75,4 +75,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <a href="https://www.notion.so/26F-Stat-TA-Session-W5-3925ce07e08e8094a355e24b3544e82b?source=copy_link" target="_blank" style="text-decoration: none;">Control Flow & Define your Function</a><a href="{{ '/files/w5.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 
+  <li style="margin-bottom: 8px;">
+    <b>Week 06：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W6-3955ce07e08e80bc9c6fca1cfbf5890d?source=copy_link" target="_blank" style="text-decoration: none;">String and Date Data Manipulation</a><a href="{{ '/files/w6.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
+
 </ul>

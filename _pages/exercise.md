@@ -71,4 +71,9 @@ author_profile: true
     <b>Week 05：</b> 
     <a href="https://www.notion.so/W5-Exercises-3925ce07e08e803da93ae3de2870ebe1?source=copy_link" target="_blank" style="text-decoration: none;">Control Flow & Define your Function</a><a href="{{ '/files/w5_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 06：</b> 
+    <a href="https://www.notion.so/W6-Exercises-3955ce07e08e804f8c8fdcf1862768fb?source=copy_link" target="_blank" style="text-decoration: none;">String and Date Data Manipulation</a><a href="{{ '/files/w6_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

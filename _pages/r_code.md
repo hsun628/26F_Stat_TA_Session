@@ -34,4 +34,9 @@ Here are Example Codes for TA sessions. Please Download before classes.
     <b>Week 05：</b>
     <a href="{{ '/files/w5.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Control Flow & Define your Function</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 06：</b>
+    <a href="{{ '/files/w6.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">String and Date Data Manipulation</a> (Datasets included)
+  </li>
 </ul>
