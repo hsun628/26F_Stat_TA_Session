@@ -79,6 +79,6 @@ author_profile: true
 
   <li style="margin-bottom: 8px;">
     <b>Week 07：</b> 
-    <a href="https://www.notion.so/W7-Exercises-3955ce07e08e804f8c8fdcf1862768fb?source=copy_link" target="_blank" style="text-decoration: none;">Final Lecture on Data Visualization</a><a href="{{ '/files/w7_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+    <a href="https://app.notion.com/p/W7-Exercises-39a5ce07e08e802da743ea85a380ffde?source=copy_link" target="_blank" style="text-decoration: none;">Final Lecture on Data Visualization</a><a href="{{ '/files/w7_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 </ul>
