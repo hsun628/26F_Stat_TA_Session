@@ -39,4 +39,9 @@ Here are Example Codes for TA sessions. Please Download before classes.
     <b>Week 06：</b>
     <a href="{{ '/files/w6.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">String and Date Data Manipulation</a> (Datasets included)
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 07：</b>
+    <a href="{{ '/files/w7.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Final Lecture on Data Visualization</a> (Datasets included)
+  </li>
 </ul>

@@ -80,4 +80,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W6-3955ce07e08e80bc9c6fca1cfbf5890d?source=copy_link" target="_blank" style="text-decoration: none;">String and Date Data Manipulation</a><a href="{{ '/files/w6.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 
+  <li style="margin-bottom: 8px;">
+    <b>Week 07：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W7-39a5ce07e08e805aa168e08cca590332?source=copy_link" target="_blank" style="text-decoration: none;">Final Lecture on Data Visualization</a><a href="{{ '/files/w7.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
+
 </ul>

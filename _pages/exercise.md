@@ -76,4 +76,9 @@ author_profile: true
     <b>Week 06：</b> 
     <a href="https://www.notion.so/W6-Exercises-3955ce07e08e804f8c8fdcf1862768fb?source=copy_link" target="_blank" style="text-decoration: none;">String and Date Data Manipulation</a><a href="{{ '/files/w6_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 07：</b> 
+    <a href="https://www.notion.so/W7-Exercises-3955ce07e08e804f8c8fdcf1862768fb?source=copy_link" target="_blank" style="text-decoration: none;">Final Lecture on Data Visualization</a><a href="{{ '/files/w7_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>
