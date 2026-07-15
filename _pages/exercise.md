@@ -81,4 +81,11 @@ author_profile: true
     <b>Week 07：</b> 
     <a href="https://app.notion.com/p/W7-Exercises-39a5ce07e08e802da743ea85a380ffde?source=copy_link" target="_blank" style="text-decoration: none;">Final Lecture on Data Visualization</a><a href="{{ '/files/w7_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+---
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 09：</b> 
+    <a href="https://app.notion.com/p/W9-Exercises-39e5ce07e08e8091b34ce4b433b0997e?source=copy_link" target="_blank" style="text-decoration: none;">Logical Expressions and dplyr</a><a href="{{ '/files/w9_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

@@ -48,4 +48,11 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 07：</b>
     <a href="{{ '/files/w7_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Final Lecture on Data Visualization</a>
   </li>
+
+---
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 09：</b>
+    <a href="{{ '/files/w9_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Logical Expressions and dplyr</a>
+  </li>
 </ul>

@@ -85,4 +85,11 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W7-39a5ce07e08e805aa168e08cca590332?source=copy_link" target="_blank" style="text-decoration: none;">Final Lecture on Data Visualization</a><a href="{{ '/files/w7.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
 
+---
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 09：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W9-39e5ce07e08e80789568e061092944c2?source=copy_link" target="_blank" style="text-decoration: none;">Logical Expressions and dplyr</a><a href="{{ '/files/w9.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
+
 </ul>
