@@ -88,4 +88,9 @@ author_profile: true
     <b>Week 09：</b> 
     <a href="https://app.notion.com/p/W9-Exercises-39e5ce07e08e8091b34ce4b433b0997e?source=copy_link" target="_blank" style="text-decoration: none;">Logical Expressions and dplyr</a><a href="{{ '/files/w9_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 10：</b> 
+    <a href="https://app.notion.com/p/W10-Exercises-3a65ce07e08e8056b1eceff35bb790c0?source=copy_link" target="_blank" style="text-decoration: none;">More Distributions and More Data Wrangling</a><a href="{{ '/files/w10_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

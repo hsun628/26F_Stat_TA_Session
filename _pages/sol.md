@@ -55,4 +55,9 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 09：</b>
     <a href="{{ '/files/w9_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Logical Expressions and dplyr</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 10：</b>
+    <a href="{{ '/files/w10_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">More Distributions and More Data Wrangling</a>
+  </li>
 </ul>
