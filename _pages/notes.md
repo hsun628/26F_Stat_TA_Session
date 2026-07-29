@@ -96,4 +96,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <b>Week 10：</b> 
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W10-3a65ce07e08e80b88d47ff8844890e52?source=copy_link" target="_blank" style="text-decoration: none;">More Distributions and More Data Wrangling</a><a href="{{ '/files/w10.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 11：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W11-3aa5ce07e08e80948e3bc919eeca7f34?source=copy_link" target="_blank" style="text-decoration: none;">More Data Wrangling, again</a><a href="{{ '/files/w11.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

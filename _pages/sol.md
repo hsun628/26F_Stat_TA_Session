@@ -60,4 +60,9 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 10：</b>
     <a href="{{ '/files/w10_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">More Distributions and More Data Wrangling</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 11：</b>
+    <a href="{{ '/files/w11_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">More Data Wrangling, again</a>
+  </li>
 </ul>
