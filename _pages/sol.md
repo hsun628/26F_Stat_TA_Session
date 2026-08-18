@@ -6,10 +6,10 @@ author_profile: true
 
 Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with TAs if you have any questions.
 
-### HW Solutions
+### Problem Set Solutions
 
-* **HW 01：** 
-* **HW 02：** 
+* **PS 01：** 
+* **PS 02：** 
 
 ### Weekly Exercise Solutions
 
