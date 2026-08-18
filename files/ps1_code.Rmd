@@ -1,0 +1,265 @@
+---
+title: "hw1"
+output: html_document
+date: "2026-08-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+# import package
+rm(list = ls())
+library(ggplot2)
+
+setwd("C:\\Users\\pinxu\\OneDrive\\Desktop\\NTU\\26F_Stat_TA\\datasets")
+
+# set directory and import data
+county <- read.csv("county.csv") # for fig 1.8, 1.9
+loan50 <- read.csv("loan50.csv") # for fig 2.6, 2.10
+loan <- read.csv("loans_full_schema.csv") # for fig 2.17, 2.18, 2.23
+
+```
+
+```{r}
+
+# (a) Figure 1.8 & 1.9
+# draw the scatter plot 
+scatter_plot_1 <- ggplot(county, aes(x = multi_unit, y = homeownership)) +
+  
+  ## adjust the points
+  geom_point(color = "steelblue", fill = "black", shape = 21, stroke = 0.9) +
+  
+  ## add labels and graph title to make the graph readable
+  labs(
+    x = "Percent of Units in Multi-Unit Structures",
+    y = "Homeownership Rate",
+    title = "Figure 1.8: Homeownership vs. Multi-Unit Structures"
+  ) +
+  
+  ## center the title text
+  theme(plot.title = element_text(hjust = 0.5)) +
+  
+  ## adjust the scale of x, y-axis
+  scale_x_continuous(
+    breaks = c(0, 20, 40, 60, 80, 100),
+    labels = c("0%", "20%", "40%", "60%", "80%", "100%")
+  ) +
+  scale_y_continuous(
+    breaks = c(0, 20, 40, 60, 80, 100),
+    labels = c("0%", "20%", "40%", "60%", "80%", "100%")
+  )
+
+# show the plot
+scatter_plot_1
+
+```
+```{r}
+
+# (a) conti.
+# highlight point at (31.3, 39.4)
+highlight_point_1 <- data.frame(
+  homeownership = 31.3,
+  multi_unit = 39.4
+)
+
+# highlighting the point
+scatter_plot_1_hl <- scatter_plot_1 +
+  
+  ## add highlight point circle
+  geom_point(data = highlight_point_1, aes(x = multi_unit, y = homeownership), color = "red", size = 3, shape = 1) +
+  
+  ## add both vertical and horizontal dash lines
+  geom_vline(xintercept = highlight_point_1$multi_unit, linetype = "dashed", color = "red") +
+  geom_hline(yintercept = highlight_point_1$homeownership, linetype = "dashed", color = "red")
+
+# show the plot
+scatter_plot_1_hl
+
+```
+```{r}
+
+# (b) Figure 2.6
+ggplot(loan50, aes(x = interest_rate)) +
+  
+  ## plot the histogram (OPTIONAL: `boundary` specify the location of edge for each bin)
+  geom_histogram(binwidth = 2.5, fill = "steelblue", color = "black", boundary = 5) +
+  
+  ## other adjustments
+  labs(
+    x = "Interest Rate",
+    y = "Frequency",
+    title = "Figure 2.6: A histogram of interest rate"
+  ) +
+  scale_x_continuous(
+    labels = c("5%", "10%", "15%", "20%", "25%"),
+    breaks = c(5, 10, 15, 20, 25)
+  ) +
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+```{r}
+
+# (b) Figure 2.10
+# draw the graph by two different ways: box plot, and dot plot
+box_dot_plot_raw <- ggplot(loan50, aes(x = "", y = interest_rate)) +
+  
+  ## draw the box plot, dot plot, and overlap them together
+  geom_boxplot(width = 0.3) +
+  geom_dotplot(binaxis = 'y', stackdir = 'center', dotsize = 0.5, fill = "lightblue") +
+  
+  labs(
+    y = "Interest Rate",
+    title = "Figure 2.10: Box plot and dot plot of interest rate"
+  ) +
+  
+  ## adjust the scale and range of y-axis
+  scale_y_continuous(
+    labels = c("5%", "10%", "15%", "20%", "25%"),
+    breaks = seq(5, 25, by = 5)
+  ) +
+  
+  ## adjust the graph title and x-axis title
+  theme(plot.title = element_text(hjust = 0.5))
+  
+# show the plot
+box_dot_plot_raw
+
+```
+```{r}
+
+# (b) conti. Separate the box plot and dot plot beautifully
+# create two distinct dataset for dot/box graph, and append them together
+
+  ## data for dot plot
+  loan_data_plot_dot <- loan50 %>%
+    mutate(plot_type = "Dot Plot")
+
+  ## data for box plot
+  loan_data_plot_box <- loan50 %>%
+    mutate(plot_type = "Box Plot")
+
+  ## append together
+  loan_data_combined <- bind_rows(loan_data_plot_dot, loan_data_plot_box)
+  
+# Draw two graphs separately with `facet` command
+box_dot_plot <- ggplot(loan_data_combined, aes(x = plot_type, y = interest_rate)) +
+  
+  ## dot plot and box plot
+  geom_dotplot(data = loan_data_combined %>% filter(plot_type == "Dot Plot"), 
+               binaxis = 'y', 
+               stackdir = 'center', 
+               dotsize = 0.5, 
+               fill = "lightblue", 
+               position = position_dodge(width = 0.4)
+              ) +
+  geom_boxplot(data = loan_data_combined %>% filter(plot_type == "Box Plot"), 
+               width = 0.3, 
+               position = position_dodge(width = 0.9)
+              ) +
+  
+  ## other adjustments
+  labs(
+    y = "Interest Rate",
+    x = NULL,
+    title = NULL
+  ) +
+  scale_y_continuous(
+    labels = c("5%", "10%", "15%", "20%", "25%"),
+    breaks = seq(5, 25, by = 5)
+  ) +
+  
+  theme(
+    axis.title.x = element_blank(),
+    plot.title = element_text(hjust = 0.5)
+  ) +
+  
+  ## (!!) utilize `facet_wrap` command to align the graphs by using variable "plot_type"
+  facet_wrap(~plot_type, scales = "free_x")
+
+# show the plot
+box_dot_plot
+
+```
+```{r}
+
+# (c) Figure 2.17
+# contingency table
+table1 <- table(loan$application_type, loan$homeownership, 
+               dnn = c("app_type", "homeownership"))
+table1_withsum <- addmargins(table1)
+table1_withsum
+
+# (c) Figure 2.18
+table2 <- table(loan$homeownership)
+table2_withsum <- addmargins(table2)
+table2_withsum
+
+```
+```{r}
+
+# (c) Figure 2.23
+# (OPTIONAL) adjust the order
+loan$application_type <- fct_relevel(loan$application_type, "joint", "individual")
+loan$homeownership <- fct_relevel(loan$homeownership, "RENT", "MORTGAGE", "OWN")
+
+# plot a: stacked bar
+ggplot(loan, aes(x = homeownership, fill = application_type)) +
+  geom_bar() +
+  labs(
+    y = "Frequency",
+    fill = ""
+  ) +
+  scale_fill_manual(
+    values = c("individual" = "steelblue", "joint" = "gold")
+  )
+
+```
+```{r}
+
+# (OPTIONAL) adjust the order
+loan$application_type <- fct_relevel(loan$application_type, "individual", "joint")
+loan$homeownership <- fct_relevel(loan$homeownership, "RENT", "MORTGAGE", "OWN")
+
+# plot b: dodged bar
+ggplot(loan, aes(x = homeownership, fill = application_type)) +
+  geom_bar(position = "dodge") +
+  labs(
+    y = "Frequency",
+    fill = ""
+  ) +
+  scale_fill_manual(
+    values = c("individual" = "steelblue", "joint" = "gold")
+  )
+
+
+
+# (OPTIONAL) adjust the order
+loan$application_type <- fct_relevel(loan$application_type, "joint", "individual")
+loan$homeownership <- fct_relevel(loan$homeownership, "RENT", "MORTGAGE", "OWN")
+
+# plot c: standard stacked bar
+ggplot(loan, aes(x = homeownership, fill = application_type)) +
+  geom_bar(position = "fill") +
+  labs(
+    y = "Proportion", 
+    fill = ""
+  ) +
+  scale_fill_manual(values = c("individual" = "steelblue", "joint" = "gold"))
+
+```
+```{r}
+
+data.frame(
+  mean = c(mean(loan$annual_income), mean(loan$total_credit_lines)),
+  median = c(median(loan$annual_income), median(loan$total_credit_lines)),
+  sd = c(sd(loan$annual_income), sd(loan$total_credit_lines)),
+  q25 = c(quantile(loan$annual_income, .25), quantile(loan$total_credit_lines, .25)),
+  q75 = c(quantile(loan$annual_income, .75), quantile(loan$total_credit_lines, .75)),
+  row.names = c("annual_income", "total_credit_line")
+)
+
+```
+
