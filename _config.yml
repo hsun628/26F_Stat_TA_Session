@@ -1,0 +1,318 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "26F Statistics TA Website"
+title_separator          : "-"
+name                     : &name "hsun"
+description              : &description "This is the TA Session Website for Statistics with Recitation (26F)"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://hsun628.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "/26F_Stat_TA_Session" # the subpath of your site, e.g. "/blog"
+repository               : "hsun628/hsun628.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "hsun" 
+  bio              : ""
+  location         : "Room 6XX, Social Science Building"
+  email            : "R15323005@ntu.edu.tw" 
+  github           : "https://github.com/hsun628/"
+
+# Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   : "profile.png" # 社群平台分享（如傳 LINE 或 FB）時預設顯示的縮圖，直接用你的頭像即可
+breadcrumbs              : false # 保持 false，TA 網站階層簡單，不需要顯示頂端麵包屑導覽（例如 Home / Slide / Week1）
+words_per_minute         : 160
+future                   : true  # 保持 true，這樣即使文章日期寫了未來的日期，網站一樣會渲染出來
+read_more                : "disabled" # 保持 "disabled"，不要在主頁列表顯示「閱讀更多」按鈕，讓所有內容直接呈現
+
+# TA 網站不需要 Talkmap 功能（這通常是研究生用來展示去哪些國家發表論文的學術地圖功能）
+talkmap_link             : false 
+
+# ---- 留言板功能設定 ----
+# 強烈建議關閉留言功能，避免學生在網站亂留言，有問題請他們直接寄 Email 或是透過 Teams 聯絡
+comments:
+  provider               : false # 設定為 false 關閉所有第三方留言區
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            :
+    colorscheme          :
+
+# Staticman 是另一種透過 Git 儲存的留言系統，既然上面關閉了，這裡保持預設或不管它即可
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "main" # 如果你的預設分支是 main，可以順手改一下（原本是 gh-pages）
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+
+# ---- RSS 訂閱設定 ----
+atom_feed:
+  hide                   : true  # 💡 改成 true！把網頁頁尾的 RSS 訂閱圖標隱藏，因為大學生沒人在用 RSS，藏起來畫面更乾淨
+  path                   :
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Social media default site image
+og_description           :  # Social media default site image description
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+
+# Analytics
+analytics:
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  google:
+    tracking_id          :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# These settings control the types of collections used by the template
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+
+# These settings control how pages and collections are included in the site
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
