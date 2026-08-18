@@ -8,8 +8,11 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
 
 ### Problem Set Solutions
 
-* **PS 01：** 
-* **PS 02：** 
+<ul>
+  <li style="margin-bottom: 8px;">
+    <a href="https://app.notion.com/p/Problem-Set-1-Solution-3c05ce07e08e804f8259d03266aad25e?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 01</b></a><a href="{{ '/files/PS1_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
+</ul>
 
 ### Weekly Exercise Solutions
 
