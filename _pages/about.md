@@ -91,6 +91,7 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
 ## TA Information
 
 <div class="custom-info-box" style="background-color: #ffffff; border: 1px solid #e2e8f0; color: #222222; padding: 20px; border-radius: 10px; margin-top: 15px;">
+  <p style="margin: 0 0 10px 0;"><b>TA Hsun (陳品勳)</b></p>
   <p style="margin: 0 0 10px 0;"><b>Contact:</b> R15323005@ntu.edu.tw</p>
   <p class="custom-sub-text" style="margin: 0 0 15px 0;">* Please use the email subject prefix: <code>[Statistics TA]</code></p>
   <p style="margin: 0 0 10px 0;"><b>Office Hours:</b> By Appointment</p>
