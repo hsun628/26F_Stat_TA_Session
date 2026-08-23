@@ -98,4 +98,9 @@ author_profile: true
     <b>Week 11：</b> 
     <a href="https://app.notion.com/p/W11-Exercises-3aa5ce07e08e80b2bf11dd2138c6fc76?source=copy_link" target="_blank" style="text-decoration: none;">More Data Wrangling, again</a><a href="{{ '/files/w11_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 12：</b> 
+    <a href="https://app.notion.com/p/W12-Exercises-3c45ce07e08e80168fd5d30a6efec633?source=copy_link" target="_blank" style="text-decoration: none;">Explore Data and Hypothesis Testing</a><a href="{{ '/files/w12_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

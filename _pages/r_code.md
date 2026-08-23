@@ -61,4 +61,9 @@ Here are Example Codes for TA sessions. Please Download before classes.
     <b>Week 11：</b>
     <a href="{{ '/files/w11.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">More Data Wrangling, again</a> (Datasets included)
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 12：</b>
+    <a href="{{ '/files/w12.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Explore Data and Hypothesis Testing</a> (Datasets included)
+  </li>
 </ul>

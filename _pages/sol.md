@@ -68,4 +68,9 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 11：</b>
     <a href="{{ '/files/w11_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">More Data Wrangling, again</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 12：</b>
+    <a href="{{ '/files/w12_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Explore Data and Hypothesis Testing</a>
+  </li>
 </ul>

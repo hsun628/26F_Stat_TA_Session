@@ -101,4 +101,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <b>Week 11：</b> 
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W11-3aa5ce07e08e80948e3bc919eeca7f34?source=copy_link" target="_blank" style="text-decoration: none;">More Data Wrangling, again</a><a href="{{ '/files/w11.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 12：</b> 
+    <a href="https://app.notion.com/p/26F-STAT-TA-Session-W12-3b35ce07e08e80fe82b5f2c102e136b3?source=copy_link" target="_blank" style="text-decoration: none;">Explore Data and Hypothesis Testing</a><a href="{{ '/files/w12.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>
