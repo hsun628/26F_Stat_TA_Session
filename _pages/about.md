@@ -95,7 +95,8 @@ All TA Session Materials will be posted here, including slides, R codes, HW, and
   <p style="margin: 0 0 10px 0;"><b>Contact:</b> R15323005@ntu.edu.tw</p>
   <p class="custom-sub-text" style="margin: 0 0 15px 0;">* Please use the email subject prefix: <code>[Statistics TA]</code></p>
   <p style="margin: 0 0 10px 0;"><b>Office Hours:</b> Tuesday 10:00-11:00 a.m.</p>
-  <p class="custom-sub-text" style="margin: 0 0 15px 0;">* Please make an appointment with me by Sunday and include your question in the email</p>
+  <p class="custom-sub-text" style="margin: 0 0 15px 0;">* Please make an appointment with me by Sunday</p>
+  <p class="custom-sub-text" style="margin: 0 0 15px 0;">* Also remember to include your question in the email</p>
   <p style="margin: 0;"><b>Location:</b> Room 649, Social Science Building</p>
 </div>
 
