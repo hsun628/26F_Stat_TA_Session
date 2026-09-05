@@ -14,6 +14,12 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
   </li>
 </ul>
 
+<ul>
+  <li style="margin-bottom: 8px;">
+    <a href="https://app.notion.com/p/Problem-Set-2-Solution-3d25ce07e08e80518fb7c0ad77238e62?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 02</b></a><a href="{{ '/files/PS2_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps2_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
+  </li>
+</ul>
+
 ### Weekly Exercise Solutions
 
 <ul>
