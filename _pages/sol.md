@@ -79,4 +79,9 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 12：</b>
     <a href="{{ '/files/w12_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Explore Data and Hypothesis Testing</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 13：</b>
+    <a href="{{ '/files/w13_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Hypothesis Testing: t-test</a>
+  </li>
 </ul>

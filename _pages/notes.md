@@ -106,4 +106,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <b>Week 12：</b> 
     <a href="https://app.notion.com/p/26F-STAT-TA-Session-W12-3b35ce07e08e80fe82b5f2c102e136b3?source=copy_link" target="_blank" style="text-decoration: none;">Explore Data and Hypothesis Testing</a><a href="{{ '/files/w12.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 13：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W13-3d45ce07e08e8075bda3dab130cf5b16?source=copy_link" target="_blank" style="text-decoration: none;">Hypothesis Testing: t-test</a><a href="{{ '/files/w13.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

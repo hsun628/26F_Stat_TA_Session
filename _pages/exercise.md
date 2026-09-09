@@ -103,4 +103,9 @@ author_profile: true
     <b>Week 12：</b> 
     <a href="https://app.notion.com/p/W12-Exercises-3c45ce07e08e80168fd5d30a6efec633?source=copy_link" target="_blank" style="text-decoration: none;">Explore Data and Hypothesis Testing</a><a href="{{ '/files/w12_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 13：</b> 
+    <a href="https://app.notion.com/p/W13-Exercises-3d45ce07e08e807c9b1afa68ad9fa351?source=copy_link" target="_blank" style="text-decoration: none;">Hypothesis Testing: t-test</a><a href="{{ '/files/w13_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>
