@@ -20,6 +20,12 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
   </li>
 </ul>
 
+<ul>
+  <li style="margin-bottom: 8px;">
+    <a href="https://app.notion.com/p/Problem-Set-3-Solution-3ed5ce07e08e80c1930ef841b385163e?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 02</b></a><a href="{{ '/files/PS3_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps3_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
+  </li>
+</ul>
+
 ### Weekly Exercise Solutions
 
 <ul>
