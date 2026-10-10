@@ -111,4 +111,9 @@ Here are the weekly TA session lecture notes. Click to check out the weekly note
     <b>Week 13：</b> 
     <a href="https://app.notion.com/p/26F-Stat-TA-Session-W13-3d45ce07e08e8075bda3dab130cf5b16?source=copy_link" target="_blank" style="text-decoration: none;">Hypothesis Testing: t-test</a><a href="{{ '/files/w13.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 14：</b> 
+    <a href="https://app.notion.com/p/26F-Stat-TA-Session-W14-3f55ce07e08e80caa32bdd0b0c21673f?source=copy_link" target="_blank" style="text-decoration: none;">ANOVA and Linear Regression</a><a href="{{ '/files/w14.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>

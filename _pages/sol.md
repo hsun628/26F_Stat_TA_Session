@@ -90,4 +90,9 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
     <b>Week 13：</b>
     <a href="{{ '/files/w13_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Hypothesis Testing: t-test</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 14：</b>
+    <a href="{{ '/files/w14_sol.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">ANOVA and Linear Regression</a>
+  </li>
 </ul>

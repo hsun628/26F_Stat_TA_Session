@@ -71,4 +71,9 @@ Here are Example Codes for TA sessions. Please Download before classes.
     <b>Week 13：</b>
     <a href="{{ '/files/w13.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">Hypothesis Testing: t-test</a> (Datasets included)
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 14：</b>
+    <a href="{{ '/files/w14.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">ANOVA and Linear Regression</a> (Datasets included)
+  </li>
 </ul>
