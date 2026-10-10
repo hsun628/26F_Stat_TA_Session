@@ -108,4 +108,9 @@ author_profile: true
     <b>Week 13：</b> 
     <a href="https://app.notion.com/p/W13-Exercises-3d45ce07e08e807c9b1afa68ad9fa351?source=copy_link" target="_blank" style="text-decoration: none;">Hypothesis Testing: t-test</a><a href="{{ '/files/w13_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
   </li>
+
+  <li style="margin-bottom: 8px;">
+    <b>Week 14：</b> 
+    <a href="hhttps://app.notion.com/p/W14-Exercises-3f55ce07e08e8061b5fdda0855058046?source=copy_link" target="_blank" style="text-decoration: none;">ANOVA and Linear Regression</a><a href="{{ '/files/w14_ex.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a>
+  </li>
 </ul>
