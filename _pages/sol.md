@@ -22,7 +22,13 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
 
 <ul>
   <li style="margin-bottom: 8px;">
-    <a href="https://app.notion.com/p/Problem-Set-3-Solution-3ed5ce07e08e80c1930ef841b385163e?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 02</b></a><a href="{{ '/files/PS3_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps3_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
+    <a href="https://app.notion.com/p/Problem-Set-3-Solution-3ed5ce07e08e80c1930ef841b385163e?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 03</b></a><a href="{{ '/files/PS3_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps3_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
+  </li>
+</ul>
+
+<ul>
+  <li style="margin-bottom: 8px;">
+    <a href="https://app.notion.com/p/Problem-Set-4-Solution-40b5ce07e08e807fa018d9dc528ee40b?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 04</b></a><a href="{{ '/files/PS4_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps4_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
   </li>
 </ul>
 

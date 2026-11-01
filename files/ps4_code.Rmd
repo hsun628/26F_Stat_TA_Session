@@ -1,0 +1,78 @@
+---
+title: "ps4_code"
+output: html_document
+date: "2026-11-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(dplyr)
+
+burger <- read.csv("burger.csv")
+
+```
+```{r}
+
+# data cleaning
+
+burger <- burger %>%
+  filter_out(best_burger_place %in% c("Not Sure", "Other"))
+
+# b.
+
+# one-way table
+
+count_table <- table(
+  burger$best_burger_place,
+  dnn = "Best Burger Place"
+)
+
+count_table
+
+pct_table <- prop.table(count_table) * 100
+
+pct_table
+
+
+# expected counts under the null hypothesis
+
+expected_count <- rep(sum(count_table) / length(count_table),
+                      length(count_table))
+print(expected_count)
+
+
+# chi-square test
+
+chi_test <- chisq.test(count_table,
+                       p = rep(1 / length(count_table),
+                               length(count_table)))
+print(chi_test)
+
+```
+
+```{r}
+
+# 2.
+
+body <- read.csv("full_body_scan.csv")
+
+# create two-way table
+
+count_table_2 <- table(body$answer, body$party_affiliation,
+                     dnn = c("Asnwer", "Party Affiliation"))
+print(count_table_2)
+
+pct_table_2 <- prop.table(count_table, margin = 2)
+print(pct_table_2)
+
+# chi-square test
+
+chi_test_2 <- chisq.test(count_table_2)
+print(chi_test_2)
+
+```
+
