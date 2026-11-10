@@ -1,0 +1,145 @@
+---
+title: "ps5_code"
+output: html_document
+date: "2026-11-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(tidyverse)
+
+china <- read.csv("china.csv")
+
+```
+
+
+```{r}
+
+# clean data: drop samples with unknown education degree, or unknown childcare hours
+china_clean <- china %>% 
+   filter(edu != 9 & is.na(edu) == FALSE) %>% 
+   filter(child_care != -99 & is.na(child_care) == FALSE)
+  
+### 1. 
+# summary statistics table
+china_clean %>% summarize(
+    count = n(),
+    mean = mean(child_care),
+    sd = sd(child_care),
+    min = min(child_care),
+    max = max(child_care)
+  )
+
+# plot a histogram for `child_care`
+ggplot(china_clean, aes(x = child_care)) +
+  
+  ## select an appropriate bin width
+  geom_histogram(binwidth = 10, fill = "steelblue", color = "gray") +
+  
+  ## add label and graph title to make the graph more readable
+  labs(
+    title = "Histogram of Child Care Hours",
+    x = "Child Care Hours",
+    y = "Frequency"
+  ) +
+  
+  ## center the graph title
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+```
+
+```{r}
+
+### 2.
+# summary statistics table: by parent's gender
+china_clean %>%
+  group_by(gender) %>%
+  summarize(
+    count = n(),
+    mean = mean(child_care),
+    sd = sd(child_care),
+    min = min(child_care),
+    max = max(child_care)
+  )
+
+# plot a histogram for `child_care`: by parent's gender
+ggplot(china_clean, aes(x = child_care)) +
+  
+  ## select an appropriate bin width
+  geom_histogram(binwidth = 5, color = "gray", fill = "steelblue") +
+  
+  ## split the sample by parent's gender, set the nrow = 2 for comparison
+  facet_wrap(~gender, nrow = 2) +
+  
+  ## add label and graph title to make the graph more readable
+  labs(
+    title = "Histogram of Child Care Hours: by Parent's Gender",
+    x = "Child Care Hours",
+    y = "Frequency",
+    fill = "Gender"
+  ) +
+  
+  ## center the graph title
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+```{r}
+
+### 3.
+# t-test
+t_test_result <- t.test(child_care ~ gender, data = china_clean)
+print(t_test_result)
+
+```
+
+```{r}
+
+### 4.
+# summary statistics table: by parent's education level
+china_clean %>%
+    group_by(edu) %>%
+    summarise(
+      count = n(),
+      mean = mean(child_care),
+      sd = sd(child_care),
+      min = min(child_care),
+      max = max(child_care)
+    )
+
+# plot side-by-side box plots for `child_care`: by parent's educational level
+ggplot(china_clean, aes(y = child_care)) +
+  
+  ## remove the scale of x-axis
+  geom_boxplot(aes(x = "")) +
+  
+  ## split the sample by education level, set nrow = 1 for comparison
+  facet_wrap(~edu, nrow = 1) +
+  
+  ## add label and graph title to make the graph more readable
+  labs(
+    title = "Box Plot of Child Care Hours: by Parent's Education Level",
+    x = "Education Level",
+    y = "Child Care Hours"
+  ) +
+  
+  ## center the graph title
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+```{r}
+
+### 5.
+# summary statistics table: by parent's education level
+anova_result <- aov(child_care ~ as.factor(edu), data = china_clean)
+print(anova_result)
+summary(anova_result)
+
+```
+

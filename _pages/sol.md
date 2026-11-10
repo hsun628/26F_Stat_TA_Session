@@ -32,6 +32,12 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
   </li>
 </ul>
 
+<ul>
+  <li style="margin-bottom: 8px;">
+    <a href="https://app.notion.com/p/Problem-Set-5-Solution-4145ce07e08e8055971ddbd659f1d5e9?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 05</b></a><a href="{{ '/files/PS5_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps5_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
+  </li>
+</ul>
+
 ### Weekly Exercise Solutions
 
 <ul>
