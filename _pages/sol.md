@@ -38,6 +38,12 @@ Here are suggested anwsers of Practices and Homeworks. Feel free to discuss with
   </li>
 </ul>
 
+<ul>
+  <li style="margin-bottom: 8px;">
+    <a href="https://app.notion.com/p/Problem-Set-6-Solution-4235ce07e08e80a9886deac32aec1c56?source=copy_link" target="_blank" style="text-decoration: none;"><b>PS 06</b></a><a href="{{ '/files/PS6_sol.pdf' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(PDF)</a><a href="{{ '/files/ps6_code.zip' | relative_url }}" download style="text-decoration: none; margin-left: 10px;">(R code)</a>
+  </li>
+</ul>
+
 ### Weekly Exercise Solutions
 
 <ul>
